@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Unplugged </title>
+
+  <!-- slider stylesheet -->
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="https://fonts.cdnfonts.com/css/space-age" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header style="background-color: rgb(0, 0, 0);" class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container pt-3 glow" >
+          <a class="navbar-brand" href="index.html">
+            
+            
+            
+           <span style="font-size: xx-large;" class="glow">
+           Unplugged
+           </span>
+           
+           
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
+              <ul class="navbar-nav  ">
+                
+                
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html" style="font-size: x-large;">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" style="font-size: x-large;">ABOUT US </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="do.html" style="font-size: x-large;"> TEAM </a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html"style="font-size: x-large;">CONTACT</a>
+                </li>
+              </ul>
+              
+             
+        </head>
+        
+            
+        
+           
+        
+            
+               
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <section style="  text-align: center; background-color:  rgb(0, 0, 0) !important; color: rgb(255, 255, 255); " >
+<br><br>
+      <section style="  font-family: 'Space Age', sans-serif; text-align: center; background-color:  rgb(0, 0, 0) !important; color: rgb(255, 255, 255); padding-bottom:40px" >
+
+    <h1>MEET US</h1>
+
+    <div class="gallery1" style="max-width:70%">
+      
+      <img src="images/m1.png">
+      
+      <img src="images/m9.png" >
+      <img src="images/m12.png">
+      <img src="images/n11.png" >
+      <img src="images/m10.png" >
+      <img src="images/m3.png" >
+      <img src="images/m4.png" >
+      <img src="images/m5.png" >
+      <img src="images/m7.png">
+      
+    </div>
+   </section>
+  <!-- who section 
+  <section style="background-color:  rgb(0, 0, 0) !important; color: rgb(255, 255, 255);" class="do_section layout_padding">
+  <h3 style="text-align: center;" >PROGRAMMING DEPARTMENT</h3>
+      <div class="image-container">
+        
+      
+        
+        <img src="images/m1.png" alt="Image 2">
+        
+      </div>
+      <br>
+      <h3 style="text-align: center;" >CONSTRUCTION DEPARTMENT</h3>
+      <div class="image-container">
+        <img src="images/m2.png" alt="Image 1">
+        <img src="images/m3.png" alt="Image 2">
+        <img src="images/m4.png" alt="Image 3">
+      </div>
+     <br>
+      <h3 style="text-align: center;" >MARKETING DEPARTMENT</h3>
+      <div class="image-container">
+        <img src="images/m5.png" alt="Image 1">
+        <img src="images/m9.png" alt="Image 2">
+        <img src="images/m7.png" alt="Image 3">
+      </div>
+    </section>
+   end who section -->
+
+
+  <!-- work section -->
+ 
+
+<style>
+        .gallery1 {
+          margin:0 auto;
+          width: 100%;
+          text-align: center;
+  --s: 200px; /* control the size */
+  --g: 10px;  /* control the gap */
+  --f: 1.5;   /* control the scale factor */
+  
+  display: grid;
+  gap: var(--g);
+  width: calc(3*var(--s) + 2*var(--g));
+  aspect-ratio: 1;
+  grid-template-columns: repeat(3,auto);
+}
+
+.gallery1 > img {
+  width: 0;
+  height: 0;
+  min-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  filter: grayscale(80%);
+  transition: .35s linear;
+}
+
+.gallery1 img:hover{
+  filter: grayscale(0);
+  width:  calc(var(--s)*var(--f));
+  height: calc(var(--s)*var(--f));
+}
+@media screen and (max-width: 600px) {
+  .gallery1 {
+    display: block;
+    width: 100%;
+  }
+
+        table {
+            width: 70%;
+            border-collapse: collapse;
+            margin: 0 auto; /* Centering the table */
+        }
+        td {
+            padding: 10px;
+            text-align: center;
+        }
+        .tableimg {
+            width: 200px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        p {
+            margin: 5px 0;
+        }
+        @media screen and (max-width: 600px) {
+            table {
+                width: 100%;
+            }
+            .tableimg {
+                width: 80px; /* Adjust size as needed */
+            }
+          }
+        }
+    </style>
+  <!-- client section -->
+      <br><br><br>
+      <h1 style="text-align: center;  font-family: 'Space Age', sans-serif;  ">
+        SPONSORS
+      </h1>
+      <div class="list-container">
+        
+        <ul class="name-list">
+            <li>Inas</li>
+            <li>Aquatim</li>
+            <li>Blitz Land</li>
+            <li>Ilco Group</li>
+            <li>Hitch&Mosher</li>
+            <li>Agroluca</li>
+            <li>Confident Dr.Talpos</li>
+            <li>Dr. Radu Roxana PF</li>
+            
+        </ul>
+    </div>
+    <br><br><br>
+      <h1 style="text-align: center;  font-family: 'Space Age', sans-serif; ">
+        PROMOTIONAL MATERIALS
+      </h1>
+      <div class="list-container">
+        
+        <ul class="name-list">
+            <li>Nokia</li>
+            <li>Dumigraf</li>
+            <li>Atelier Print</li>
+            <li>THD Craft</li>
+            <li>Cartobello</li>
+            <li>Daisler</li>
+            
+            
+        </ul>
+    </div>
+    </section>
+  
+  
+<style>
+  .image-table {
+    
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.image-table td {
+  padding: 10px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 200px; /* Adjust size as needed */
+  height: 180px; /* Adjust size as needed */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Adjust opacity as needed */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.35s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay p {
+  color: white;
+  font-size: 16px;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+ 
+</style>
+    <style>
+    .list-container {
+    width: 50%;
+    margin: 50px auto;
+    background-color: #000000;
+    border-radius: 10px;
+    border-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+.name-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.name-list li {
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.name-list li:last-child {
+    border-bottom: none;
+}
+      .custom-table {
+          width: 70%;
+          border-collapse: collapse;
+          margin: 0 auto; /* Centering the table */
+      }
+      .custom-table th{
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .custom-table td {
+          border: 1px solid #ffffff;
+          padding: 8px;
+          text-align: left;
+          color:aliceblue
+      }
+      .custom-table th {
+          background-color: #f2f2f2;
+      }
+      .custom-table tr {
+          background-color: rgb(255, 255, 255);
+          color: #f2f2f2;
+      }
+  </style>
+     <!-- info section -->
+  <section style="background-color: rgb(45, 45, 47) ;" class="info_section ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="info_contact">
+            <h5>
+              About 
+            </h5>
+            <div>
+              <div class="img-box">
+                <img src="images/location-white.png" width="18px" alt="">
+              </div>
+              <p>
+                Liceul Nikolaus Lenau, Timisoara
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/telephone-white.png" width="12px" alt="">
+              </div>
+              <p>
+                +40 (770) 534 376
+              </p>
+            </div>
+            <div>
+              <div class="img-box">
+                <img src="images/envelope-white.png" width="18px" alt="">
+              </div>
+              <p>
+                lenauunplugged@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="info_info">
+            <h5>
+              
+            </h5>
+            <p>
+              
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="info_insta">
+            <h5>
+              Social
+            </h5>
+            <div class="insta_container" style="text-align: left;">
+                <a href="https://www.instagram.com/unplugged_lenau?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color: white;">
+                  
+                    <i class="bi bi-instagram"></i>
+                    Instagram
+                    </a>
+                    <br>
+                <a href="https://www.facebook.com/unpluggedlenau" style="color: white;">
+                  
+                    <i class="bi bi-facebook"></i>
+                    Instagram
+                    </a>
+                    <br>
+                <a href="https://github.com/mihnea112/unplugged24" style="color: white;">
+                  
+                    <i class="bi bi-github"></i>
+                    Github
+                    </a>
+
+                 
+              
+       </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end info_section -->
+
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <span>UNPLUGGED - ALL RIGHTS RESERVED © 2024</span>
+  </section>
+  <!-- footer section -->
+</body>
+</html>
